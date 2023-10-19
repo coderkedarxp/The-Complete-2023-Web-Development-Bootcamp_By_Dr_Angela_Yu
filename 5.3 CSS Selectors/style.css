@@ -1,0 +1,44 @@
+ol {
+  margin-left: -40px;
+  margin-top: -20px;
+  list-style-position: inside;
+}
+
+/* Write your CSS below, don't change the rules above. */
+p{
+  color:red
+}
+
+.note {
+  font-size: 20px;
+}
+
+#id-selector-demo{
+  color:green;
+}
+
+li[value="4"]{
+
+  color :blue
+}
+
+*{
+  text-align: center;
+}
+/*for class selector--> .red-heading
+for class selector --> #idName
+id can be applied to a single element in a html file
+attibute  selector --> p[draggable] here we want to select 'attribute'
+that is select all paragraph elements with attribute draggable
+
+universal selector -->select all 
+*{
+  color:red;     
+}
+
+*/
+
+
+
+
+

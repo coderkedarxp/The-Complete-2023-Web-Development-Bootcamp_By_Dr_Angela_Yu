@@ -1,0 +1,48 @@
+/* Write your code here:
+
+1) ere h1 and h2 are element selector but we can do same for classes and ids
+
+2)child parent combination
+box and done are the classes 
+here box is parent and done is child it is applicable only to direct child of the parent
+
+that is only can select which is one level deep
+
+3)descendent combination.
+box is grand parent of li
+
+4)chaining selector - Apply where all selectors are true
+
+In chaining always start with the element
+
+for eg., --> h1#title.big.heading
+this is chaining of h1 element,title id, and two classes big and heading.
+
+
+5)Combining Combiners
+normally the last code will select 2 lines "Do this things today" and other items , but "Other items" is in ul whereas "Do this things today" is in div
+*/
+
+h1, h2{
+    color: blueviolet;
+}
+
+
+.box > .done{
+    color: firebrick;
+}
+
+
+.box li{
+    color: blue;
+}
+
+
+li.done{
+    color: seagreen;
+}
+
+
+ul p.done{
+    font-size: 0.5rem;
+}
